@@ -27,6 +27,7 @@ public class Utility {
 	}
 
 	public static String getProperty(String key) throws IOException {
+		// First changes on github
 		File file1 = new File("src/test/resources/testData.properties");
 		FileInputStream fileInputStream = new FileInputStream(file1);
 		Properties properties = new Properties();
