@@ -27,8 +27,8 @@ public class Utility {
 	}
 
 	public static String getProperty(String key) throws IOException {
-		File file = new File("src/test/resources/testData.properties");
-		FileInputStream fileInputStream = new FileInputStream(file);
+		File file1 = new File("src/test/resources/testData.properties");
+		FileInputStream fileInputStream = new FileInputStream(file1);
 		Properties properties = new Properties();
 		properties.load(fileInputStream);
 		return properties.getProperty(key);
